@@ -24,9 +24,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E1A49AD7300C06DC00CCD79C /* 111.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 111.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E1A49AE4300C06DD00CCD79C /* 111Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 111Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E1A49AEE300C06DD00CCD79C /* 111UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 111UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E110B290300CA7CA00219782 /* 111.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 111.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E110B291300CA7CA00219782 /* 111Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 111Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E110B292300CA7CA00219782 /* 111UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 111UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -35,14 +35,39 @@
 			path = 111;
 			sourceTree = "<group>";
 		};
-		E1A49AE7300C06DD00CCD79C /* 111Tests */ = {
+		E1A49B05300C076F00CCD79C /* Modeller ve Data */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = 111Tests;
+			path = "Modeller ve Data";
 			sourceTree = "<group>";
 		};
-		E1A49AF1300C06DD00CCD79C /* 111UITests */ = {
+		E1A49B07300C078800CCD79C /* Qeydiyyat ve Giris */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = 111UITests;
+			path = "Qeydiyyat ve Giris";
+			sourceTree = "<group>";
+		};
+		E1A49B09300C079F00CCD79C /* Navigation */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		E1A49B0E300C07F200CCD79C /* Kart Bolmesi */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Kart Bolmesi";
+			sourceTree = "<group>";
+		};
+		E1A49B10300C081100CCD79C /* Qenaet Bolmesi */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Qenaet Bolmesi";
+			sourceTree = "<group>";
+		};
+		E1A49B12300C082C00CCD79C /* Mini City */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Mini City";
+			sourceTree = "<group>";
+		};
+		E1A49B14300C083800CCD79C /* Valideyn Paneli */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Valideyn Paneli";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -76,20 +101,17 @@
 			isa = PBXGroup;
 			children = (
 				E1A49AD9300C06DC00CCD79C /* 111 */,
-				E1A49AE7300C06DD00CCD79C /* 111Tests */,
-				E1A49AF1300C06DD00CCD79C /* 111UITests */,
-				E1A49AD8300C06DC00CCD79C /* Products */,
+				E1A49B05300C076F00CCD79C /* Modeller ve Data */,
+				E1A49B07300C078800CCD79C /* Qeydiyyat ve Giris */,
+				E1A49B09300C079F00CCD79C /* Navigation */,
+				E1A49B0E300C07F200CCD79C /* Kart Bolmesi */,
+				E1A49B10300C081100CCD79C /* Qenaet Bolmesi */,
+				E1A49B12300C082C00CCD79C /* Mini City */,
+				E1A49B14300C083800CCD79C /* Valideyn Paneli */,
+				E110B290300CA7CA00219782 /* 111.app */,
+				E110B291300CA7CA00219782 /* 111Tests.xctest */,
+				E110B292300CA7CA00219782 /* 111UITests.xctest */,
 			);
-			sourceTree = "<group>";
-		};
-		E1A49AD8300C06DC00CCD79C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E1A49AD7300C06DC00CCD79C /* 111.app */,
-				E1A49AE4300C06DD00CCD79C /* 111Tests.xctest */,
-				E1A49AEE300C06DD00CCD79C /* 111UITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,12 +131,19 @@
 			);
 			fileSystemSynchronizedGroups = (
 				E1A49AD9300C06DC00CCD79C /* 111 */,
+				E1A49B05300C076F00CCD79C /* Modeller ve Data */,
+				E1A49B07300C078800CCD79C /* Qeydiyyat ve Giris */,
+				E1A49B09300C079F00CCD79C /* Navigation */,
+				E1A49B0E300C07F200CCD79C /* Kart Bolmesi */,
+				E1A49B10300C081100CCD79C /* Qenaet Bolmesi */,
+				E1A49B12300C082C00CCD79C /* Mini City */,
+				E1A49B14300C083800CCD79C /* Valideyn Paneli */,
 			);
 			name = 111;
 			packageProductDependencies = (
 			);
 			productName = 111;
-			productReference = E1A49AD7300C06DC00CCD79C /* 111.app */;
+			productReference = E110B290300CA7CA00219782 /* 111.app */;
 			productType = "com.apple.product-type.application";
 		};
 		E1A49AE3300C06DD00CCD79C /* 111Tests */ = {
@@ -130,14 +159,11 @@
 			dependencies = (
 				E1A49AE6300C06DD00CCD79C /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				E1A49AE7300C06DD00CCD79C /* 111Tests */,
-			);
 			name = 111Tests;
 			packageProductDependencies = (
 			);
 			productName = 111Tests;
-			productReference = E1A49AE4300C06DD00CCD79C /* 111Tests.xctest */;
+			productReference = E110B291300CA7CA00219782 /* 111Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		E1A49AED300C06DD00CCD79C /* 111UITests */ = {
@@ -153,14 +179,11 @@
 			dependencies = (
 				E1A49AF0300C06DD00CCD79C /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				E1A49AF1300C06DD00CCD79C /* 111UITests */,
-			);
 			name = 111UITests;
 			packageProductDependencies = (
 			);
 			productName = 111UITests;
-			productReference = E1A49AEE300C06DD00CCD79C /* 111UITests.xctest */;
+			productReference = E110B292300CA7CA00219782 /* 111UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -196,7 +219,7 @@
 			mainGroup = E1A49ACE300C06DC00CCD79C;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = E1A49AD8300C06DC00CCD79C /* Products */;
+			productRefGroup = E1A49ACE300C06DC00CCD79C;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
